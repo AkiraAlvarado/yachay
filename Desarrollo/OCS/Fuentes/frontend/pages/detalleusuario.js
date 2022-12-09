@@ -1,13 +1,17 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 import Navbar from '../components/Navbar';
 import SearchBar from "../components/Searchbar";
 
 export default function descriptioncourse() {
     return ( 
         <div>
+            <div>
             <Navbar/>
+            </div>
+            <div>
             <SearchBar/>
+            </div>
             <div className="flex flex-col container mx-auto h-screen items-center justify-center bg-gray-100">
 
                 <div className="grid grid-rows-2 ml-10 mt-20">
